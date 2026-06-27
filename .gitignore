@@ -1,50 +1,16 @@
-# Secrets / credentials
 .env
 .env.*
 *.key
 *.pem
-*.p12
-*.pfx
-id_rsa
-id_ed25519
 secrets.*
-secret.*
 token.*
-tokens.*
 credentials.*
-credentials.json
-config.private.*
-
-# Private raw data
 private/
 raw/
 archives/
 mail/
 emails/
-inbox/
-exports/
 logs/private/
 data/private/
-Behoerden/
-Gesundheit/
-Finanzen/
-
-# OS / editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Python / Node
 .venv/
-venv/
-__pycache__/
-*.pyc
 node_modules/
-
-# Build / cache
-dist/
-build/
-.cache/
-tmp/
-*.log
